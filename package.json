@@ -1,0 +1,19 @@
+{
+  "name": "react-github-repo-list",
+  "version": "0.0.1",
+  "description": "A React library for listing GitHub repositories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nennes/react-github-repo-list.git"
+  },
+  "author": "Yiannis Nennes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nennes/react-github-repo-list/issues"
+  },
+  "homepage": "https://github.com/nennes/react-github-repo-list#readme"
+}
