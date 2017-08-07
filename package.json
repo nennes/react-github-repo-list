@@ -8,6 +8,7 @@
     "unit-test": "jest --config jest-unit.json --runInBand",
     "snapshot-test": "jest --config jest-snapshot.json --runInBand",
     "build": "babel lib -d build --ignore '**/*.spec*.js'",
+    "build:watch": "babel lib -w -d build --ignore '**/*.spec*.js'",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
     "precommit": "lint-staged",
@@ -55,6 +56,8 @@
     "styled-components": "^2.1.2"
   },
   "dependencies": {
-    "axios": "^0.16.2"
+    "axios": "^0.16.2",
+    "react-markdown": "^2.5.0",
+    "react-modal": "^2.2.2"
   }
 }
