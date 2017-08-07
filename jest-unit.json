@@ -2,7 +2,7 @@
   "bail": false,
   "verbose": true,
   "moduleNameMapper": {
-    "\\.(sass|jpg|png)$": "<rootDir>/lib/config/emptyExport.js"
+    "\\.(sass|jpg|png)$": "<rootDir>/config/emptyExport.js"
   },
   "testRegex": "\\.(test|spec)\\.js$"
 }
