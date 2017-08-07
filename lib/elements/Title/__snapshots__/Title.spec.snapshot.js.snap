@@ -2,6 +2,6 @@
 
 exports[`Title element renders correctly 1`] = `
 <h3>
-  super-interesting-repo-title
+  Super cool library for React
 </h3>
 `;
