@@ -1,0 +1,8 @@
+{
+  "bail": false,
+  "verbose": true,
+  "moduleNameMapper": {
+    "\\.(sass|jpg|png)$": "<rootDir>/lib/config/emptyExport.js"
+  },
+  "testRegex": "\\.(test|spec)\\.js$"
+}
