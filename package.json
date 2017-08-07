@@ -4,6 +4,7 @@
   "description": "A React library for listing GitHub repositories",
   "main": "build/index.js",
   "scripts": {
+    "test": "npm run unit-test && npm run snapshot-test && npm run lint",
     "unit-test": "jest --config jest-unit.json --runInBand",
     "snapshot-test": "jest --config jest-snapshot.json --runInBand",
     "build": "babel lib -d build --ignore '**/*.spec*.js'",
