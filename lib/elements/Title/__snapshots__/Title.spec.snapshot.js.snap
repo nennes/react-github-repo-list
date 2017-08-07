@@ -2,7 +2,7 @@
 
 exports[`Title element renders correctly 1`] = `
 <span
-  className="repo-title"
+  className="repo__title"
 >
   <h3>
     Super cool library for React

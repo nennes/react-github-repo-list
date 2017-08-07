@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`LastUpdated element renders correctly 1`] = `
-<div>
+<div
+  className="repo__last-updated"
+>
   Last Updated: 
   <time
     dateTime="2015-12-13T13:36:22.000Z"

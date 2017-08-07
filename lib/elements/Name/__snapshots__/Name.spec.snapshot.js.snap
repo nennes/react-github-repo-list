@@ -1,15 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Name element renders correctly 1`] = `
-<a
-  className="repo-name"
-  href="http://www.test.com"
-  target="_blank"
+<div
+  className="repo__name"
 >
-  <span
-    title="react-component-library"
+  <a
+    href="http://www.test.com"
+    target="_blank"
   >
-    react-component-library
-  </span>
-</a>
+    <span
+      title="react-component-library"
+    >
+      react-component-library
+    </span>
+  </a>
+</div>
 `;

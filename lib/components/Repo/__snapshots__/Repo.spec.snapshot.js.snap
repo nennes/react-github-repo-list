@@ -1,21 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Repo component renders correctly 1`] = `
-<div>
-  <a
-    className="repo-name"
-    href="http://www.test.com"
-    target="_blank"
-  >
-    <span
-      title="repository-name"
+<div
+  className="repo"
+>
+  <p>
+    <div
+      className="repo__name"
     >
-      repository-name
-    </span>
-  </a>
+      <a
+        href="http://www.test.com"
+        target="_blank"
+      >
+        <span
+          title="repository-name"
+        >
+          repository-name
+        </span>
+      </a>
+    </div>
+  </p>
   <p>
     <span
-      className="repo-title"
+      className="repo__title"
     >
       <h3>
         Repository title
@@ -23,14 +30,18 @@ exports[`Repo component renders correctly 1`] = `
     </span>
   </p>
   <p>
-    <div>
+    <div
+      className="repo__read-me"
+    >
       <button
         onClick={[Function]}
       >
         ReadMe
       </button>
     </div>
-    <div>
+    <div
+      className="repo__last-updated"
+    >
       Last Updated: 
       <time
         dateTime="2015-12-13T13:36:22.000Z"
