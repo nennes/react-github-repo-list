@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoList organism renders correctly 1`] = `
+<div
+  className="repo-list"
+>
+  <ul>
+    <li>
+      <div
+        className="repo"
+      >
+        <p>
+          <div
+            className="repo__name"
+          >
+            <a
+              href="http://www.test.com"
+              target="_blank"
+            >
+              <span
+                title="repository-name"
+              >
+                repository-name
+              </span>
+            </a>
+          </div>
+        </p>
+        <p>
+          <span
+            className="repo__title"
+          >
+            <h3>
+              Repository title
+            </h3>
+          </span>
+        </p>
+        <p>
+          <div
+            className="repo__read-me"
+          >
+            <button
+              onClick={[Function]}
+            >
+              ReadMe
+            </button>
+          </div>
+          <div
+            className="repo__last-updated"
+          >
+            Last Updated: 
+            <time
+              dateTime="2015-12-13T13:36:22.000Z"
+              title="2015-12-13T13:36:22Z"
+            >
+              2 years ago
+            </time>
+          </div>
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        className="repo"
+      >
+        <p>
+          <div
+            className="repo__name"
+          >
+            <a
+              href="http://www.example.com"
+              target="_blank"
+            >
+              <span
+                title="another-repository-name"
+              >
+                another-repository-name
+              </span>
+            </a>
+          </div>
+        </p>
+        <p>
+          <span
+            className="repo__title"
+          >
+            <h3>
+              Another repository title
+            </h3>
+          </span>
+        </p>
+        <p>
+          <div
+            className="repo__read-me"
+          >
+            <button
+              onClick={[Function]}
+            >
+              ReadMe
+            </button>
+          </div>
+          <div
+            className="repo__last-updated"
+          >
+            Last Updated: 
+            <time
+              dateTime="2015-12-15T15:33:22.000Z"
+              title="2015-12-15T15:33:22Z"
+            >
+              2 years ago
+            </time>
+          </div>
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
