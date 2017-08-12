@@ -4,22 +4,26 @@ exports[`List atom renders correctly 1`] = `
 <ul
   className="list"
 >
-  <div>
-    A child
-  </div>
-  <div
-    className="repo__name"
-  >
-    <a
-      href="http://www.test.com"
-      target="_blank"
+  <li>
+    <div>
+      A child
+    </div>
+  </li>
+  <li>
+    <div
+      className="repo__name"
     >
-      <span
-        title="me"
+      <a
+        href="http://www.test.com"
+        target="_blank"
       >
-        me
-      </span>
-    </a>
-  </div>
+        <span
+          title="me"
+        >
+          me
+        </span>
+      </a>
+    </div>
+  </li>
 </ul>
 `;
