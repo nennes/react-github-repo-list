@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List atom renders correctly 1`] = `
+<ul
+  className="list"
+>
+  <div>
+    A child
+  </div>
+  <div
+    className="repo__name"
+  >
+    <a
+      href="http://www.test.com"
+      target="_blank"
+    >
+      <span
+        title="me"
+      >
+        me
+      </span>
+    </a>
+  </div>
+</ul>
+`;
