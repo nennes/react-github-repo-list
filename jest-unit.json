@@ -4,5 +4,6 @@
   "moduleNameMapper": {
     "\\.(sass|jpg|png)$": "<rootDir>/config/emptyExport.js"
   },
-  "testRegex": "\\.(test|spec)\\.js$"
+  "testRegex": "\\.(test|spec)\\.js$",
+  "setupFiles" : ["<rootDir>/config/jestShim.js", "<rootDir>/config/jestSetupFile.js"]
 }
