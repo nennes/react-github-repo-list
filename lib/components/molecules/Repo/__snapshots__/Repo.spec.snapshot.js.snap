@@ -4,7 +4,7 @@ exports[`Repo component renders correctly 1`] = `
 <div
   className="repo"
 >
-  <p>
+  <div>
     <div
       className="repo__name"
     >
@@ -19,8 +19,8 @@ exports[`Repo component renders correctly 1`] = `
         </span>
       </a>
     </div>
-  </p>
-  <p>
+  </div>
+  <div>
     <span
       className="repo__title"
     >
@@ -28,8 +28,8 @@ exports[`Repo component renders correctly 1`] = `
         Repository title
       </h3>
     </span>
-  </p>
-  <p>
+  </div>
+  <div>
     <div
       className="repo__read-me"
     >
@@ -43,13 +43,10 @@ exports[`Repo component renders correctly 1`] = `
       className="repo__last-updated"
     >
       Last Updated: 
-      <time
-        dateTime="2015-12-13T13:36:22.000Z"
-        title="2015-12-13T13:36:22Z"
-      >
+      <span>
         2 years ago
-      </time>
+      </span>
     </div>
-  </p>
+  </div>
 </div>
 `;

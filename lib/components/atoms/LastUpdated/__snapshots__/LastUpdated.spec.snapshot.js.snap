@@ -5,11 +5,8 @@ exports[`LastUpdated element renders correctly 1`] = `
   className="repo__last-updated"
 >
   Last Updated: 
-  <time
-    dateTime="2015-12-13T13:36:22.000Z"
-    title="2015-12-13T13:36:22Z"
-  >
+  <span>
     2 years ago
-  </time>
+  </span>
 </div>
 `;
