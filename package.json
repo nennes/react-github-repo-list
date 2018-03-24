@@ -54,15 +54,19 @@
     "lint-staged": "^4.0.3",
     "polished": "^1.3.0",
     "prettier": "^1.5.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
     "react-intl": "^2.4.0",
     "react-markdown": "^3.3.0",
     "react-modal": "^3.3.2"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0 || ^16",
+    "react-dom": "^0.14.0 || ^15.0.0 || ^16"
   }
 }
